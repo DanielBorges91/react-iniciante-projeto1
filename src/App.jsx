@@ -3,9 +3,9 @@ import Titulo from "./Titulo"
 function App() {
   return(
     <>
-      <Titulo />
-      <Titulo />
-      <Titulo />
+      <Titulo cor="red" nome="Dimitre" paragrafo = {true}/>
+      <Titulo cor = "blue"/>
+      <Titulo nome= "Daniel Borges" paragrafo = {false} cor="green"/>
     </>
   )
 }
